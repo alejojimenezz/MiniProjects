@@ -3,10 +3,15 @@ Random / Miscellanious little projects to practice.
 
 
 - [MiniProjects](#miniprojects)
+  - [Possible Mini-Projects](#possible-mini-projects)
   - [Store](#store)
   - [BusinessCard](#businesscard)
     - [Preview](#preview)
 
+## Possible Mini-Projects
+
+- [ ] Calculator
+- [ ] Tick Tac Toe
 
 ## [Store](/Store)
 
