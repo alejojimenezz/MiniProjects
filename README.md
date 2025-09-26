@@ -7,6 +7,8 @@ Random / Miscellanious little projects to practice.
   - [Store](#store)
   - [BusinessCard](#businesscard)
     - [Preview](#preview)
+  - [Turtle](#turtle)
+
 
 ## Possible Mini-Projects
 
@@ -25,4 +27,8 @@ Business card android app.
 
 Updated to August 30th 2025
 
-<img width="800" alt="image" src="./assets/BusinessCardPreview.png" />
+<img width="800" alt="image" src="./assets/BusinessCardPreview.png"/>
+
+## [Turtle](/Turtle/)
+
+Folder to test python turtle library.
