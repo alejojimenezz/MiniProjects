@@ -54,3 +54,28 @@ class Graph:
                         stack.append((neighbour, path + [neighbour]))
         
         return None
+    
+    # Dijkstra
+    def dijkstra(self, start, objective):
+        distances = {node: float("inf") for node in self.graph}
+        distances[start] = 0
+        tail = [(0, start, [start])]
+        visited = set()
+
+        while tail:
+            distance, node, path = heapq.heappop(tail)
+            if node in visited:
+                continue
+            visited.add(node)
+
+            if node == objective:
+                return distance, path
+            
+            for neighbour, weigth in self.graph[node]:
+                if neighbour not in visited:
+                    new_dist = distance + weigth
+                    if new_dist < distances[neighbour]:
+                        distances[neighbour] = new_dist
+                        heapq.heappush(tail, (new_dist, neighbour, path + [neighbour]))
+            
+            return float("inf"), []
