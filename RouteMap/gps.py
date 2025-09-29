@@ -37,3 +37,20 @@ class Graph:
                         tail.append((neighbour, path + [neighbour]))
         
         return None
+    
+    # DFS
+    def dfs(self, start, objective):
+        visited = set()
+        stack = [(start, [start])]
+
+        while stack:
+            node, path = stack.pop()
+            if node == objective:
+                return path
+            if node not in visited:
+                visited.add(node)
+                for neighbour, _ in self.graph.get(node, []):
+                    if neighbour not in visited:
+                        stack.append((neighbour, path + [neighbour]))
+        
+        return None
