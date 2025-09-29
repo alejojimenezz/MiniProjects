@@ -13,4 +13,27 @@ class Graph:
         self.graph = {}
 
     def add_edge(self, u , v, weigth=1):
-        pass
+        
+        if u not in self.graph:
+            self.graph[u] = []
+        if v not in self.graph:
+            self.graph[v] = []
+        self.graph[u].append((v, weigth))
+        self.graph[v].append((u, weigth))
+
+    # BFS
+    def bfs(self, start, objective):
+        visited = set()
+        tail = deque([start, [start]])
+
+        while tail:
+            node, path = tail.popleft()
+            if node == objective:
+                return path
+            if node not in visited:
+                visited.add(node)
+                for neighbour, _ in self.graph.get(node, []):
+                    if neighbour not in visited:
+                        tail.append((neighbour, path + [neighbour]))
+        
+        return None
