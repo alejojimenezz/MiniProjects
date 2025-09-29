@@ -7,12 +7,12 @@ BFS / DFS / Dijkstra
 from collections import deque
 import heapq
 
-class Graph:
+class graphModel:
     def __init__(self):
 
         self.graph = {}
 
-    def add_edge(self, u , v, weigth=1):
+    def addEdge(self, u , v, weigth=1):
         
         if u not in self.graph:
             self.graph[u] = []
@@ -24,7 +24,7 @@ class Graph:
     # BFS
     def bfs(self, start, objective):
         visited = set()
-        tail = deque([start, [start]])
+        tail = deque([(start, [start])])
 
         while tail:
             node, path = tail.popleft()
@@ -78,4 +78,17 @@ class Graph:
                         distances[neighbour] = new_dist
                         heapq.heappush(tail, (new_dist, neighbour, path + [neighbour]))
             
-            return float("inf"), []
+        return float("inf"), []
+        
+if __name__ == "__main__":
+
+    g = graphModel()
+    g.addEdge("Bogota", "Medellín", 420)
+    g.addEdge("Bogota", "Cali", 460)
+    g.addEdge("Medellín", "Cartagena", 640)
+    g.addEdge("Cali", "Pasto", 400)
+    g.addEdge("Cali", "Medellín", 415)
+
+    print("BFS (ruta más corta en saltos)", g.bfs("Bogota", "Pasto"))
+    print("DFS (ruta explorada)", g.dfs("Bogota", "Pasto"))
+    print("Dijkstra (ruta más corta en distancia)", g.dijkstra("Bogota", "Pasto"))
