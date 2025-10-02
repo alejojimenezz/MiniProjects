@@ -1,6 +1,6 @@
 # Puntos de repaso
 
-- [ ] Implementa el algoritmo de búsqueda binaria en Python. (Algoritmos de Búsqueda)
+- [X] Implementa el [algoritmo de búsqueda binaria](./binarySearch.py) en Python. (Algoritmos de Búsqueda)
 
 
 - [ ] Escribe un programa en C++ que resuelva el problema de la mochila (knapsack) usando programación dinámica. (Programación Dinámica)
