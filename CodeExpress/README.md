@@ -15,7 +15,7 @@
 - [ ] Programa en C++ el cálculo de la sucesión de Fibonacci de forma recursiva y luego optimizada con memoization. (Recursividad y Optimización)
 
 
-- [ ] Implementa en Python el algoritmo de Dijkstra para encontrar el camino más corto en un grafo. (Grafos y Caminos Mínimos)
+- [X] Implementa en Python el [algoritmo de Dijkstra](dijkstra.py) para encontrar el camino más corto en un grafo. (Grafos y Caminos Mínimos)
 
 
 - [ ] ¿Cuál es la diferencia entre un algoritmo de ordenamiento en O(n log n) y uno en O(n²)? Da ejemplos. (Análisis de Complejidad)
