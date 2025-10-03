@@ -1,16 +1,17 @@
 import turtle
 import math
+from matplotlib import pyplot as plt
 
 turtle.speed(0)
 turtle.bgcolor("white")
 turtle.pensize(2)
 
 # Parámetros del trébol
-a = 100   # radio base
-b = 25    # amplitud de la ondulación
+a = 150   # radio base
+b = 30    # amplitud de la ondulación
 f = 1.2   # factor de escala
 n = 4     # numero de petalos
-deg = 0
+deg = 25
 
 while deg >= -45 and deg <= 45:
     gamma = math.radians(deg) # rotacion
@@ -37,3 +38,5 @@ for angle in range(0, 361):
 
 turtle.hideturtle()
 turtle.done()
+
+#TODO: Matplotlib window changing parameters
