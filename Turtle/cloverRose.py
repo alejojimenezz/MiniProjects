@@ -3,7 +3,7 @@ import math
 
 turtle.speed(0)
 turtle.bgcolor("white")
-turtle.pensize(2)
+turtle.pensize(3)
 
 # Parámetros del trébol
 a = 100   # radio base
