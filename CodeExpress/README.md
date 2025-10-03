@@ -3,7 +3,7 @@
 - [X] Implementa el [algoritmo de búsqueda binaria](./binarySearch.py) en Python. (Algoritmos de Búsqueda)
 
 
-- [ ] Escribe un programa en C++ que resuelva el problema de la mochila (knapsack) usando programación dinámica. (Programación Dinámica)
+- [X] Escribe un programa en C++ que resuelva el [problema de la mochila (knapsack)](knapsack.cpp) usando programación dinámica. (Programación Dinámica)
 
 
 - [X] Implementa en Python el [algoritmo de ordenamiento rápido (quicksort)](./quicksort.py). (Algoritmos de Ordenamiento)
