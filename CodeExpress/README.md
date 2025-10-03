@@ -6,7 +6,7 @@
 - [ ] Escribe un programa en C++ que resuelva el problema de la mochila (knapsack) usando programación dinámica. (Programación Dinámica)
 
 
-- [ ] Implementa en Python el algoritmo de ordenamiento rápido (quicksort). (Algoritmos de Ordenamiento)
+- [X] Implementa en Python el [algoritmo de ordenamiento rápido (quicksort)](./quicksort.py). (Algoritmos de Ordenamiento)
 
 
 - [ ] ¿Qué complejidad tiene el algoritmo de inserción en una lista enlazada? (Complejidad Algorítmica)
