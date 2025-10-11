@@ -3,7 +3,7 @@ import math
 
 turtle.speed(0)
 turtle.bgcolor("white")
-turtle.pensize(2)
+turtle.pensize(3)
 
 # Parámetros del trébol
 a = 100   # radio base
@@ -16,7 +16,7 @@ gammaNeg = -math.pi/4   # angulo minimo
 turtle.penup()
 for angle in range(0, 361):
     theta = math.radians(angle)
-    r = a * math.cos(2 * theta)   # ecuación polar
+    r = a * math.cos(4 * theta)   # ecuación polar
     x = f * r * math.cos(theta + gamma)
     y = f * r * math.sin(theta + gamma)
     if angle == 0:
