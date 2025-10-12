@@ -11,3 +11,40 @@
 #Cuando termines, le haces Commit y sincronizas los cambios a tu repositorio con GitHub. Ya nosotros nos encargaremos del resto.
 
 #Hablaste con el Vice de Computer Society UN. Suerte en el reto :)
+
+from decimal import *
+
+while True:
+    getcontext().prec = 2
+
+    opIN = input("Type the operation (# operator #) or 'close':\n")
+    if opIN == "close":
+        break
+    opIN = opIN.split(" ")
+
+    a = Decimal(opIN[0])
+    b = Decimal(opIN[2])
+
+    if opIN[1] == "+":
+        result = Decimal(a + b)
+        print(Decimal(result))
+        continue
+    elif opIN[1] == "-":
+        result = Decimal(a - b)
+        print(Decimal(result))
+        continue
+    elif opIN[1] == "*":
+        result = Decimal(a * b)
+        print(Decimal(result))
+        continue
+    elif opIN[1] == "/":
+        if b == 0:
+            print("ERROR:DIV0")
+            continue
+        else:
+            result = Decimal(a / b)
+            print(Decimal(result))
+            continue
+    else:
+        print("ERROR:INVALID")
+        continue
