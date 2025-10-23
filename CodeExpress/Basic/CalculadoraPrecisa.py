@@ -27,15 +27,15 @@ while True:
 
     if opIN[1] == "+":
         result = Decimal(a + b)
-        print(Decimal(result))
+        print(ROUND_HALF_UP(Decimal(result)))
         continue
     elif opIN[1] == "-":
         result = Decimal(a - b)
-        print(Decimal(result))
+        print(ROUND_HALF_UP(Decimal(result)))
         continue
     elif opIN[1] == "*":
         result = Decimal(a * b)
-        print(Decimal(result))
+        print(ROUND_HALF_UP(Decimal(result)))
         continue
     elif opIN[1] == "/":
         if b == 0:
@@ -43,7 +43,7 @@ while True:
             continue
         else:
             result = Decimal(a / b)
-            print(Decimal(result))
+            print(ROUND_HALF_UP(Decimal(result)))
             continue
     else:
         print("ERROR:INVALID")
