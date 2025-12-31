@@ -10,3 +10,5 @@ def mult(a, b):
 def div(a, b):
     return a / b
 
+def pot(a, b):
+    return a ** b
