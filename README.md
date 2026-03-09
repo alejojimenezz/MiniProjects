@@ -4,21 +4,21 @@ Random / Miscellanious little projects to practice.
 
 - [MiniProjects](#miniprojects)
   - [Possible Mini-Projects](#possible-mini-projects)
-  - [Store](#store)
   - [BusinessCard](#businesscard)
     - [Preview](#preview)
-  - [Turtle](#turtle)
+  - [Simple calculator](#simple-calculator)
+  - [Code Express challenges](#code-express-challenges)
+  - [Over the wire solutions](#over-the-wire-solutions)
   - [Route Planner](#route-planner)
+  - [Store](#store)
+  - [Turtle](#turtle)
 
 
 ## Possible Mini-Projects
 
+- [ ] QR code generator
 - [ ] Calculator
 - [ ] Tick Tac Toe
-
-## [Store](/Store)
-
-Includes [python app](/Store/coffee.py) to order coffees through console.
 
 ## [BusinessCard](/BusinessCard)
 
@@ -30,8 +30,20 @@ Updated to August 30th 2025
 
 <img width="800" alt="image" src="./assets/BusinessCardPreview.png"/>
 
+## [Simple calculator](/Calculator/)
+
+Only function definitions.
+
+## [Code Express challenges](/CodeExpress/)
+
+## [Over the wire solutions](/OverTheWire/)
+
+## [Route Planner](/RouteMap)
+
+## [Store](/Store)
+
+Includes [python app](/Store/coffee.py) to order coffees through console.
+
 ## [Turtle](/Turtle)
 
 Folder to test python turtle library.
-
-## [Route Planner](/RouteMap)
