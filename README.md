@@ -9,6 +9,7 @@ Random / Miscellanious little projects to practice.
   - [Simple calculator](#simple-calculator)
   - [Code Express challenges](#code-express-challenges)
   - [Over the wire solutions](#over-the-wire-solutions)
+  - [QR code generator](#qr-code-generator)
   - [Route Planner](#route-planner)
   - [Store](#store)
   - [Turtle](#turtle)
@@ -16,7 +17,7 @@ Random / Miscellanious little projects to practice.
 
 ## Possible Mini-Projects
 
-- [ ] QR code generator
+- [X] QR code generator
 - [ ] Calculator
 - [ ] Tick Tac Toe
 
@@ -37,6 +38,14 @@ Only function definitions.
 ## [Code Express challenges](/CodeExpress/)
 
 ## [Over the wire solutions](/OverTheWire/)
+
+## [QR code generator](/QRGenerator/)
+
+Requires the installation of python library `qrcode`, with the pillow dependency. To do so run:
+
+```bash
+pip install "qrcode[pil]"
+```
 
 ## [Route Planner](/RouteMap)
 
