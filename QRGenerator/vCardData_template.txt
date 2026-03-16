@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John
+FN:John Doe
+ORG:Monsters Inc.
+TITLE:CEO
+TEL:+573211234567
+EMAIL:mail@example.com
+END:VCARD
