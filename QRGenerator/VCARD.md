@@ -14,21 +14,19 @@ Standarized presentation "cards", usable for QRs.
       - [N](#n)
       - [NICKNAME](#nickname)
       - [BDAY](#bday)
+      - [PHOTO](#photo)
       - [GENDER](#gender)
     - [Delivery address](#delivery-address)
       - [ADR](#adr)
     - [Communications](#communications)
       - [TEL](#tel)
       - [EMAIL](#email)
-      - [IMPP (?)](#impp-)
       - [LANG](#lang)
     - [Organizational](#organizational)
       - [TITLE](#title)
       - [ROLE](#role)
       - [LOGO](#logo)
       - [ORG](#org)
-      - [MEMBER](#member)
-      - [RELATED](#related)
 
 Find documentation [here](https://www.rfc-editor.org/rfc/rfc6350.html)
 
@@ -52,44 +50,72 @@ END:VCARD
 
 #### BEGIN
 
+Denote the beginning of a text/vcard entity.
+
 #### END
+
+Denote the end of a text/vcard entity.
 
 ### Identification
 
 #### FN
 
+Full name
+
 #### N
+
+Name
 
 #### NICKNAME
 
+Nickname
+
 #### BDAY
 
+Birthday
+
+#### PHOTO
+
+URL to public image
+
 #### GENDER
+
+Gender
 
 ### Delivery address
 
 #### ADR
 
+Delivery address
+
 ### Communications
 
 #### TEL
 
+Telephone number
+
 #### EMAIL
 
-#### IMPP (?)
+E-Mail address
 
 #### LANG
+
+Preferred language
 
 ### Organizational
 
 #### TITLE
 
+Position or job
+
 #### ROLE
+
+Function or part played
 
 #### LOGO
 
+URL to public image
+
 #### ORG
 
-#### MEMBER
-
-#### RELATED
+Organizational name
