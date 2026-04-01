@@ -2,3 +2,4 @@
 *.png
 *.svg
 vCardData.txt
+.venv/
