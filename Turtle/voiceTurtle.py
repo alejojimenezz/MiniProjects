@@ -53,9 +53,9 @@ while True:
     
     command = listen_command()
 
-    if "arriba" in command:
+    if "adelante" in command:
         go_up()
-    elif "abajo" in command:
+    elif "atras" in command:
         go_down()
     elif "izquierda" in command:
         turn_left()
